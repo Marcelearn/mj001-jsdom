@@ -7,7 +7,7 @@ changeTextButtonElem.addEventListener("click", () => {
 });
 const questionElem = document.querySelector(`.question`);
 const answerElem = document.querySelector(`.answer`);
-changeTextButtonElem = document.querySelector(`.showAnswerButton`);
-showAnswerButton.addEventListener("click", () => {
+const showAnswerButtonElem = document.querySelector(`.showAnswerButton`);
+showAnswerButtonElem.addEventListener("click", () => {
     answerElem.classList.toggle("hidden");
 });
